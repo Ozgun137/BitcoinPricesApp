@@ -39,7 +39,7 @@ class BitcoinPricesViewModel @Inject constructor(
                     }
 
                 }
-                delay(5000)
+                delay(60000)
             }
 
         }

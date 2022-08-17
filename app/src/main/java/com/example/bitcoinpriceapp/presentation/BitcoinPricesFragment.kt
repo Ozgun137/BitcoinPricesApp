@@ -67,7 +67,7 @@ class BitcoinPricesFragment : Fragment() {
        lifecycleScope.launch {
            while(true){
                viewModel.getBitcoinPrices()
-               delay(5000)
+               delay(60000)
            }
        }
     }
